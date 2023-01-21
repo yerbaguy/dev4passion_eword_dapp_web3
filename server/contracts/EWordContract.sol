@@ -46,15 +46,7 @@ contract EWordContract {
         return result;
     }
 
-    // function getEngWord(uint256 wordid) external view returns (string memory) {
-    //         return ewords[wordid].engword;
-    // }
-     function getEngWordPlWord(uint256 wordid) external view returns (string memory, string memory) {
-           // return ewords[wordid].engword;
-            return (ewords[wordid].engword, ewords[wordid].plword);
-    }
-
-    function getPlWord(uint256 wordid) external view returns (string memory) {
-        return  ewords[wordid].plword;
+    function getEngWord(uint256 wordid) external view returns (string memory) {
+            return ewords[wordid].engword;
     }
 }
