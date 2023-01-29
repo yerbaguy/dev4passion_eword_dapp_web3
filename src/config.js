@@ -1,0 +1,4 @@
+// 0x3c3604F64d6a5065F9E2a9FD4D8939871FE794b0
+
+// export const  EWordContractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+export const  EWordContractAddress = "0x3c3604F64d6a5065F9E2a9FD4D8939871FE794b0"
