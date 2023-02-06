@@ -1,24 +1,17 @@
 import React, { Component } from 'react'
 
 export default class EWords extends Component {
+
     constructor(props) {
-      super(props)
-    
-      this.state = {
-         engword: '',
-         plword: ''
+        super(props)
+      
+        this.state = {
+           engword: '',
+           plword: ''
+        }
       }
-    }
 
-
-    // async handleChange(e) {
-
-    //     console.log(e.target.value);
-
-    // }
-
-
-    handleChange = (e) => {
+      handleChange = (e) => {
 
         console.log(e.target.value);
 
@@ -35,17 +28,13 @@ export default class EWords extends Component {
 
     }
 
-    // handleEngWord = (e) => {
-
-    // }
-
-
 
 
   render() {
     return (
       <div>
-        <form>
+
+           <form>
             <label htmlFor=''>engword</label>
             {/* <input type="text" name = "engword" value = {this.state.engword} onChange = { this.handleEngWord } placeholder='engword' /> */}
             <input type="text" name = "engword" value = {this.state.engword} onChange = { this.handleChange } placeholder='engword' />
